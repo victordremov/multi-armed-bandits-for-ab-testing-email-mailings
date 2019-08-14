@@ -6,7 +6,7 @@ def home(request):
 
 
 def visualization(request):
-    return redirect(request, home)
+    return render(request, 'bandits_site/visualization.html')
 
 def classic_ab_tests(request):
     return render(request, 'bandits_site/classic-ab-tests.html')

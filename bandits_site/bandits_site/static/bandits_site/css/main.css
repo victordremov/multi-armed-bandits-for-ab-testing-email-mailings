@@ -1,28 +1,39 @@
 body {
     font-family: 'Roboto', serif;
     width: 600px;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    margin: auto;
+    background-color: #fafdcb;
 }
 
-nav li {
-  float: left;
+body header h1 {
+    background-color: #aee7e8;
+}
+
+article header {
+    color: #248ea9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aee7e8;
+}
+
+nav ul li {
+    float: left;
+    background-color: #aee7e8;
 }
 
 nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 nav li a:hover {
-  background-color: #111;
+    background-color: #28c3d4;
 }
