@@ -37,3 +37,22 @@ nav li a {
 nav li a:hover {
     background-color: #28c3d4;
 }
+
+img {
+    width: 100%;
+}
+
+.form-container {
+    border: 1px solid black;
+}
+
+table, thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+}
+td.highlight {
+    font-weight: bold;
+}
