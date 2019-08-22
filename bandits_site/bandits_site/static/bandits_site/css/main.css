@@ -56,3 +56,7 @@ td {
 td.highlight {
     font-weight: bold;
 }
+
+.collapsed {
+    opacity: 0.3;
+}
