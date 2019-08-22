@@ -5,8 +5,23 @@ body {
     background-color: #fafdcb;
 }
 
-body header h1 {
+.title {
     background-color: #aee7e8;
+    font-size: larger;
+    padding: 14px 16px;
+}
+
+.title a {
+    color: black;
+}
+
+a {
+    color: #248ea9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 article header {
@@ -50,9 +65,11 @@ table, thead {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 td {
     text-align: center;
 }
+
 td.highlight {
     font-weight: bold;
 }
