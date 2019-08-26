@@ -25,6 +25,6 @@ urlpatterns = [
     path('', include(bandits_site.bandits_site.urls)),
 ]
 
-urlpatterns += patterns('',
+urlpatterns += [
     static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-)
+]
